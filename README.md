@@ -1,7 +1,7 @@
 # Dependencies
 This repo is for me to reference any dependency I may need in future develpment quickly
 
-## build.gradle (Top level)
+## build.gradle (Project level)
 <details>
 <summary><strong>🧩 Hilt (DI) Plugin</strong></summary>
 
@@ -11,7 +11,7 @@ id("com.google.dagger.hilt.android") version "2.51.1" apply false
 </details> 
 
 
-## app/build.gradle (Plugin)
+## app/build.gradle (App Level - Plugin)
 <details>
 <summary><strong>🧩 Hilt (DI) Plugin</strong></summary>
 
@@ -22,7 +22,7 @@ id ("com.google.dagger.hilt.android")
 </details> 
 
 
-## app/build.gradle
+## app/build.gradle (App Level)
 <details>
 <summary><strong>🧩 Hilt (DI) / HiltViewModel</strong></summary>
 
