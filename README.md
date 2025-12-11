@@ -69,6 +69,19 @@ implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 <!--------------------New Break---------------------->
 
 <details>
+<summary><strong>🧠 GSON </strong></summary>
+  
+```gradle
+
+//GSON
+implementation("com.google.code.gson:gson:2.10.1")
+implementation("com.squareup.retrofit2:converter-gson:2.10.0")
+```
+</details>
+
+<!--------------------New Break---------------------->
+
+<details>
 <summary><strong>🧠 OKHttp </strong></summary>
   
 ```gradle
