@@ -130,8 +130,7 @@ implementation("com.github.bumptech.glide:glide:4.16.0")
 <details>
 <summary><strong>🧠 Mockito </strong></summary>
   
-```
-gradle
+```gradle
     //Mockito
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:5.0.0")
