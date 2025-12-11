@@ -126,11 +126,24 @@ implementation("com.github.bumptech.glide:glide:4.16.0")
 ```
 </details>
 
-
-
-
-
 <!--------------------New Break---------------------->
+<details>
+<summary><strong>🧠 Mockito </strong></summary>
+  
+```
+gradle
+    //Mockito
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.mockito:mockito-core:5.0.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+```
+</details>
+
+    
+
+
+
 <!--------------------New Break---------------------->
 <!--------------------New Break---------------------->
 <!--------------------New Break---------------------->
