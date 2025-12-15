@@ -39,7 +39,7 @@ id ("com.google.dagger.hilt.android")
 <summary><strong>🧩 Hilt (DI) - KSP Plugin</strong></summary>
 
 ```gradle
-    id ("com.google.dagger.hilt.android")
+    id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
 ```
 </details> 
