@@ -73,7 +73,6 @@ android{
 }
 
 // Dependencies
-    // Hilt
     ksp("com.google.dagger:hilt-android-compiler:2.51.1")
     ksp("androidx.room:room-compiler:2.5.0")
 
