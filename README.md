@@ -3,17 +3,28 @@ This repo is for me to reference any dependency I may need in future develpment 
 
 ## build.gradle (Project level)
 <details>
-<summary><strong>🧩 Hilt (DI) Plugin</strong></summary>
+<summary><strong>🧩 Hilt (DI) Plugin - Kapt</strong></summary>
 
 ```gradle
 id("com.google.dagger.hilt.android") version "2.51.1" apply false
 ```
 </details> 
 
+<!--------------------New Break---------------------->
+
+<details>
+<summary><strong>🧩 Hilt (DI) Plugin - KSP</strong></summary>
+
+```gradle
+  id("com.google.dagger.hilt.android") version "2.51.1" apply false
+  id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
+```
+</details> 
+
 
 ## app/build.gradle (App Level - Plugin)
 <details>
-<summary><strong>🧩 Hilt (DI) Plugin</strong></summary>
+<summary><strong>🧩 Hilt (DI) - Kapt Plugin</strong></summary>
 
 ```gradle
 id ("kotlin-kapt") 
@@ -22,12 +33,23 @@ id ("com.google.dagger.hilt.android")
 </details> 
 
 
-## app/build.gradle (App Level)
+
+<!--------------------New Break---------------------->
 <details>
-<summary><strong>🧩 Hilt (DI) / HiltViewModel</strong></summary>
+<summary><strong>🧩 Hilt (DI) - KSP Plugin</strong></summary>
 
 ```gradle
-// Android Block - Hilt
+    id ("com.google.dagger.hilt.android")
+    id("com.google.devtools.ksp")
+```
+</details> 
+
+## app/build.gradle (App Level)
+<details>
+<summary><strong>🧩 Hilt (DI) - Kapt / HiltViewModel</strong></summary>
+
+```gradle
+// Android Block - Hilt - Kapt
 android{
  kapt { correctErrorTypes = true}
 }
@@ -38,6 +60,28 @@ kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 ```
 </details> 
+
+<!--------------------New Break---------------------->
+
+<details>
+<summary><strong>🧩 Hilt (DI) - KSP / HiltViewModel</strong></summary>
+
+```gradle
+// Android Block - Hilt - KSP
+android{
+// nothing here
+}
+
+// Dependencies
+    // Hilt
+    ksp("com.google.dagger:hilt-android-compiler:2.51.1")
+    ksp("androidx.room:room-compiler:2.5.0")
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation("com.google.dagger:hilt-android:2.51.1")
+```
+</details> 
+
 
 <!--------------------New Break---------------------->
 
