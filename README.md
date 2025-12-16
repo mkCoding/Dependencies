@@ -44,7 +44,7 @@ id ("com.google.dagger.hilt.android")
 ```
 </details> 
 
-## app/build.gradle (App Level)
+## app/build.gradle (App Level - Dependencies)
 <details>
 <summary><strong>🧩 Hilt (DI) - Kapt / HiltViewModel</strong></summary>
 
