@@ -141,7 +141,6 @@ implementation("com.squareup.okhttp3:okhttp:4.12.0")
 ```gradle
   // Room
     implementation("androidx.room:room-runtime:2.8.4")
-    implementation(libs.androidx.material3)
     ksp("androidx.room:room-compiler:2.8.4") // annotation processor
 ```
 </details>
