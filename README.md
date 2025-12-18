@@ -16,8 +16,8 @@ id("com.google.dagger.hilt.android") version "2.51.1" apply false
 <summary><strong>🧩 Hilt (DI) Plugin - KSP</strong></summary>
 
 ```gradle
-  id("com.google.dagger.hilt.android") version "2.51.1" apply false
-  id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
+id("com.google.dagger.hilt.android") version "2.51.1" apply false
+id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
 ```
 </details> 
 
@@ -39,8 +39,8 @@ id ("com.google.dagger.hilt.android")
 <summary><strong>🧩 Hilt (DI) - KSP Plugin</strong></summary>
 
 ```gradle
-    id("com.google.dagger.hilt.android")
-    id("com.google.devtools.ksp")
+id("com.google.dagger.hilt.android")
+id("com.google.devtools.ksp")
 ```
 </details> 
 
@@ -135,9 +135,9 @@ implementation("com.squareup.okhttp3:okhttp:4.12.0")
 <summary><strong>🧠 Storage & Cache </strong></summary>
   
 ```gradle
-    // Room
-    implementation("androidx.room:room-runtime:2.8.4")
-    ksp("androidx.room:room-compiler:2.8.4") // annotation processor
+// Room
+implementation("androidx.room:room-runtime:2.8.4")
+ksp("androidx.room:room-compiler:2.8.4") // annotation processor
 ```
 </details>
 
@@ -184,11 +184,11 @@ implementation("com.github.bumptech.glide:glide:4.16.0")
 <summary><strong>🧠 Mockito </strong></summary>
   
 ```gradle
-    //Mockito
-    testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-core:5.0.0")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+//Mockito
+testImplementation("junit:junit:4.13.2")
+testImplementation("org.mockito:mockito-core:5.0.0")
+testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
+testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
 ```
 </details>
 
