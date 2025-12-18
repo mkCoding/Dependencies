@@ -54,7 +54,7 @@ android{
  kapt { correctErrorTypes = true}
 }
 
-// Dependencies
+// Hilt
 implementation("com.google.dagger:hilt-android:2.51.1")
 kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
@@ -67,15 +67,10 @@ implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 <summary><strong>🧩 Hilt (DI) - KSP / HiltViewModel</strong></summary>
 
 ```gradle
-// Android Block - Hilt - KSP
-android{
-// nothing here
-}
-
-// Dependencies
-    ksp("com.google.dagger:hilt-android-compiler:2.51.1")
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-    implementation("com.google.dagger:hilt-android:2.51.1")
+// Hilt
+ksp("com.google.dagger:hilt-android-compiler:2.51.1")
+implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+implementation("com.google.dagger:hilt-android:2.51.1")
 ```
 </details> 
 
@@ -87,6 +82,7 @@ android{
 <summary><strong>🧠 ViewModel & Lifecycle</strong></summary>
 
 ```gradle
+// ViewModel
 implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
 implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
 implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
@@ -102,6 +98,7 @@ implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
 <summary><strong>🧠 Retrofit & Network </strong></summary>
   
 ```gradle
+// Retrofit
 implementation("com.squareup.retrofit2:retrofit:2.11.0")
 implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 ```
@@ -126,6 +123,7 @@ implementation("com.squareup.retrofit2:converter-gson:2.10.0")
 <summary><strong>🧠 OKHttp </strong></summary>
   
 ```gradle
+// OkHttp
 implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
 ```
@@ -137,7 +135,7 @@ implementation("com.squareup.okhttp3:okhttp:4.12.0")
 <summary><strong>🧠 Storage & Cache </strong></summary>
   
 ```gradle
-  // Room
+    // Room
     implementation("androidx.room:room-runtime:2.8.4")
     ksp("androidx.room:room-compiler:2.8.4") // annotation processor
 ```
@@ -149,6 +147,7 @@ implementation("com.squareup.okhttp3:okhttp:4.12.0")
 <summary><strong>🧠 Navigation</strong></summary>
   
 ```gradle
+//Navigation
 implementation("androidx.navigation:navigation-compose:2.7.7")
 ```
 </details>
