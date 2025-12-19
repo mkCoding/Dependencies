@@ -191,8 +191,18 @@ testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
 testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
 ```
 </details>
+<!--------------------New Break---------------------->
 
     
+<details>
+<summary><strong>🧠 Google Places </strong></summary>
+  
+```gradle
+// Google Places SDK
+implementation("com.google.android.libraries.places:places:3.5.0")
+```
+</details>
+
 
 
 
