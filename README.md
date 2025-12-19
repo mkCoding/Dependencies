@@ -154,6 +154,18 @@ implementation("androidx.navigation:navigation-compose:2.7.7")
 
 <!--------------------New Break---------------------->
 
+<details>
+<summary><strong>🧠 Work Manager</strong></summary>
+  
+```gradle
+// Work Manager
+implementation "androidx.work:work-runtime-ktx:2.9.0"
+```
+</details>
+
+<!--------------------New Break---------------------->
+
+
 
 <details>
 <summary><strong>🧠 JSON Parsing</strong></summary>
